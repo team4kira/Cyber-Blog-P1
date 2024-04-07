@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  color: #082D49
+}
+
+a{
+  text-decoration: none;
+  color: #082D49
+}
+
+
+/* apply styles to <header> */
+header {
+  padding: 35px 35px;
+  background-color: #BBEFEF;
+}
+
+header h1 {
+  font-family: Gopher;
+  font-weight: bold;
+  font-size: 36px;
+  color: #082D49;
+  margin: 0;
+  display: inline;
+}
+header a {
+  text-decoration: none;
+  color: #082D49;
+}
+
+.button{
+  background-color: #082D49;
+  font-family: Gopher;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-left: 650px;
+}
+
+.button:hover{
+  background-color: #031119;
+  font-family: Gopher;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-left: 650px;
+}
+.linkedin{
+  position:absolute;
+  cursor: pointer;
+  margin-left: 70px;
+  margin-top: 3px;
+}
+
+.linkedin:hover{
+  filter:contrast(200%) brightness(40%);
+}
+
+/* Hero Style Start */
+.intro {
+  background-image: url("https://drive.google.com/uc?export=view&id=1jPkt3OSxC3tQZMdYEcZudTT1yO4gSfZx");  
+  height: 475px;
+  position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 300px;
+  padding-right: 150px;
+
+}
+
+.intro img{
+  border-radius: 50%;
+  float: left;
+  display:inline-block;
+  margin-right: 100px;
+  margin-bottom: 100px;
+}
+.intro {
+  color: #ffffff;
+  text-align: left;
+
+}
+
+.intro p {
+  line-height: 1.7;
+  color: #ffffff;
+  width: 80%;
+  font-weight: lighter;
+  font-size: 20px;
+  
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* Hero Style end */
+
+section {
+  padding: 60px;
+}
+
+.section-title {
+  font-family: Gopher;
+  font-size: 38px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: -10px 100px 20px 100px;
+  display: inline-block;
+}
+.blog-posts {
+  text-align: center;
+}
+
+.blog-post {
+  width: 1200px;
+  margin: 0 auto 30px auto;
+  background: #BBEFEF;
+  overflow: auto;
+}
+
+.blog-post img {
+  height:300px;
+  width: 40%;
+  float: left;
+}
+
+.blog {
+  padding: 45px;
+  float: left;
+  width: 60%;
+  text-align: left;
+
+}
+
+.blog h3 {
+  font-weight: bold; 
+  font-family: Gopher;
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+.blog h4 {
+  font-weight: lighter;
+  font-size: 24px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.blog p {
+  font-weight: lighter;
+  font-size: 17px;
+  line-height: 1.3;
