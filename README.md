@@ -1,4 +1,4 @@
-The subsequent blog was developed as part of a project undertaken within the framework of the Cybersecurity Bootcamp at the University of Toronto.
+The subsequent blog was developed as part of a project within the University of Toronto's Cybersecurity Bootcamp Program. 
 
 Work Citation for HTML Code: 
 
